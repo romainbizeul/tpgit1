@@ -13,7 +13,7 @@ public class Jockey {
 		return this.name;
 	}
 	
-	public int getAge() {
+	public int getHerAge() {
 		return age;
 	}
 	
