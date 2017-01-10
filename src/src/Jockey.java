@@ -20,5 +20,4 @@ public class Jockey {
 		this.age = age;
 	}
 
-	
 }
