@@ -13,12 +13,11 @@ public class Jockey {
 		return this.name;
 	}
 	
-	public int getAge() {
+	public int getHisAge() {
 		return age;
 	}
 	
 	public void setAge(int age) {
 		this.age = age;
-	}dsf
-
+	}
 }
