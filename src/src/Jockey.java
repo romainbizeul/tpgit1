@@ -36,6 +36,7 @@ public class Jockey {
 	
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
+
 	}
 	
 	public int getWeight() {
@@ -44,5 +45,6 @@ public class Jockey {
 	
 	public void setWeight(int weight) {
 		this.weight = weight;
+
 	}
 }
