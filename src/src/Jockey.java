@@ -1,23 +1,48 @@
 package src;
 
 public class Jockey {
-	String name;
-	int age;
+	private int id;
+	private String firstname;
+	private String lastname;
+	private int weight;
 	
-	public String getN() {
-		return name;
+	public Jockey(int id, String firstname, String lastname, int weight) {
+		super();
+		this.id = id;
+		this.firstname = firstname;
+		this.lastname = lastname;
+		this.weight = weight;
 	}
 	
-	public void setName(String name) {
-		this.name = name;
+	public int getId() {
+		return id;
 	}
 	
-	public int getAge() {
-		return age;
+	public void setId(int id) {
+		this.id = id;
 	}
 	
-	public void setAge(int age) {
-		this.age = age;
+	public String getFirstname() {
+		return firstname;
 	}
-
+	
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+	
+	public String getLastname() {
+		return lastname;
+	}
+	
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+	
+	public int getWeight() {
+		return weight;
+	}
+	
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
 }
