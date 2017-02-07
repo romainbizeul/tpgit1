@@ -5,11 +5,11 @@ public class Jockey {
 	int age;
 
 	
-	public getName() {
+	public String getName() {
 		return this.name;
 	}
 	
-	public setName() {
+	public String setName() {
 		return this.name;
 	}
 	
@@ -18,5 +18,6 @@ public class Jockey {
 	}
 	
 	public void setAge(int age) {
-		this.age = age;aaadwaddadwad
+		this.age = age;
 	}
+}
