@@ -1,6 +1,6 @@
 package src;
 
-class Poney {
+public class Poney {
 	private int id;
 	private String name;
 	private int weight;
